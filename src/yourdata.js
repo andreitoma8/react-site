@@ -1,37 +1,38 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
+import solidityIcon from "./images/Solidity-Logo.png"
+import ethereumIcon from "./images/ethereum-logo.png"
 import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
+import pythonIcon from "./images/python-logo.png"
+import chainlinkIcon from "./images/chainlink-logo.png"
 import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import twitterIcon from "./images/twitter-icon.png"
+
+// About picture
+import mePhoto from "./images/me.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Andrei",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Building the future",
     //Line 2 For Header
-    "products, brands,",
+    "one Smart Contract",
     //Line 3 For Header
-    "and experience",
+    "at a time",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Let's build a decentralised, secure, accesible and rich future together on the Web3: Tokens, NFTs, DAOs, dApps and more!",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "andrei.toma8@yahoo.com",
 
   // End Header Details -----------------------
 
@@ -113,13 +114,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Ever since I was young I enjoyed building. Back then it was Lego, now it's Smart Contracts on the Blockchain. Being a developer encompasses the thing I love the most: bringing my vision to reality, solving logic problems and generating value for the people around me.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I first found out about the Blockchain technology back in 2017 and the decentralisation aspect got my curiosity, but what really got me hooked after digging a bit deeper into it was the great potential of the industry. I truly believe Blockchain is the new internet and the next step in humanity's digital evolution. I first entered the industry as an Investor and got to analyse projects and learn about the real use cases and value of projects, differentiating from the speculative part of the crypto. Altho fun and lucrative, being an Investor didn't bring me the satisfaction of a higer purpouse, so I decided to get into coding to help build the Web3 future.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Many courses, projects and months of learning later here I am, a young and passionate developer looking for new exciting projects to build and exciting people to meet. My mission as a Web3 developer is to help people with innovative ideas bring them to reality and make an impact in the lives of people all across the world.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    mePhoto,
 
   //   End About Section ---------------------
 
@@ -129,34 +130,34 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
+      img: solidityIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "When writing Smart Contracts I use the latest version of the Solidity programing language.",
     },
     {
-      img: cssIcon,
+      img: ethereumIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I am experienced in working with the Ethereum, Polygon, BSC and most other EVM Networks.",
     },
     {
-      img: jsIcon,
+      img: pythonIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "For Smart Contract deployment, interaction and testing I use Python and  its library: Brownie with a local Ganache blockchain set-up.",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "For Web2 integration I work with React and Next. js libraries such as Ethers, Web3-react, Moralis, Web3Modal and more.",
     },
     {
-      img: designIcon,
+      img: chainlinkIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I am experienced working with ChainLink's decentralised Oracles like Price Feeds and Verified Provable Randomness.",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Other programing languages: JavaScript, ES6, TypeScript, Python, PineScript.",
     },
   ],
 
@@ -164,28 +165,20 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Let's talk!",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Do you have a new idea, an exciting project you are working on or just need help? Shoot me an email or a DM on Twitter and let's see how I can help take it to take the next level. I'm happy to hear any way in which we can move this industry forward!",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's create your next project together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/andreitoma8" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: twitterIcon,
+      url: "https://twitter.com/toma_andrei8",
     },
   ],
 
